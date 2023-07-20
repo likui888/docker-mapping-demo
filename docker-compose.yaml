@@ -1,0 +1,18 @@
+version: "3.0"
+services:
+  docker-demo:
+    container_name: ${PROJECT_NAME}
+    image: ${PROJECT_RELEASE}
+    build:
+        context: .
+        dockerfile: Dockerfile
+        args:
+            JAR_FILE: ${PROJECT_PATH}/${PROJECT_NAME}-${PROJECT_VERSION}.jar
+    ports:
+      - "7001:7001"
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Shanghai
+    extra_hosts:
+      # host:ip
+      - "www.testlikui.com:127.0.0.1"

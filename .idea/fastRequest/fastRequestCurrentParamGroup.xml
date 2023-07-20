@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="fastRequestCurrentParamGroup">
+    <option name="className" value="com.lk.App" />
+    <option name="filePath" value="" />
+    <option name="method" value="test01" />
+    <option name="module" value="docker-network-demo" />
+    <option name="originUrl" value="/" />
+    <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
+    <option name="url" value="/" />
+  </component>
+</project>

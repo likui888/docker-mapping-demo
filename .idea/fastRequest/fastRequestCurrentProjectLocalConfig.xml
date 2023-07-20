@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="fastRequestCurrentProjectLocalConfig">
+    <option name="domain" value="http://localhost:7001" />
+    <option name="enableEnv" value="local-test" />
+    <option name="enableProject" value="docker-network-demo" />
+    <option name="initFlag" value="1" />
+  </component>
+</project>
